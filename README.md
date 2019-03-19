@@ -9,7 +9,7 @@ https://github.com/antonionovaesjr/Dockerfile/blob/master/Jenkins_Docker_Anchore
 Usuário padrão da imagem ROOT
 
 Portas para exportar:
-- 8000
+- 8080
 - 50000
 
 Volume para mapear:
