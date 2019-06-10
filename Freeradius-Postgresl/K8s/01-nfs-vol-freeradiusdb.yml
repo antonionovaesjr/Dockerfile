@@ -10,8 +10,8 @@ spec:
     - ReadWriteMany
   persistentVolumeReclaimPolicy: Retain
   nfs:
-    path: /nfsroot/kubernetes/freeradiusdb
-    server: 10.10.67.24
+    path: /PATH/freeradiusdb
+    server: IP DO SERVIDOR
     readOnly: false
 ---
 apiVersion: v1

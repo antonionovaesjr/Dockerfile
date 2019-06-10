@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: freeradiusdb
-        image: antonionovaesjr/freeradius-db:v0.9
+        image: antonionovaesjr/freeradius-db:v1.0
         env:
         - name: DB_RADIUS_NAME
           value: radiusdb
@@ -51,3 +51,5 @@ spec:
   ports:
    - name: postgres
      port: 5432
+  selector:
+    app: freeradiusdb
