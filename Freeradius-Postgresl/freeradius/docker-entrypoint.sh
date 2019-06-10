@@ -1,5 +1,5 @@
 #!/bin/sh
-
+sleep 10
 DIR_EMPTY=$(ls -1 /etc/raddb/|wc -l)
 
 
